@@ -1,0 +1,26 @@
+{
+  "name": "softpyramid/itel-sms",
+  "description": "This package send sms to phone numbers",
+  "type": "library",
+  "require": {},
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Softpyramid\\ItelSms\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Usama Arslan",
+      "email": "usama.arslan@softpyramid.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Softpyramid\\ItelSms\\SMSServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
